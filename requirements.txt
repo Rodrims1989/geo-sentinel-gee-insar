@@ -1,0 +1,12 @@
+# Núcleo
+numpy>=1.26
+scipy>=1.11
+pymannkendall>=1.4.3
+# API (opcional: solo para los routers FastAPI)
+fastapi>=0.110
+pydantic>=2.6
+uvicorn>=0.29
+# Google Earth Engine
+earthengine-api>=0.1.390
+# Tests
+pytest>=8.0

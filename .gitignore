@@ -1,0 +1,36 @@
+# Credenciales y secretos — NUNCA al repositorio
+.env
+.env.*
+*-key.json
+gee-key*.json
+*service-account*.json
+client_secret*.json
+secrets/
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Datos (este repo no versiona datos reales)
+data/
+*.h5
+*.tif
+*.tiff
+*.nc
+*.parquet
+*.shp
+*.shx
+*.dbf
+*.kml
+*.kmz
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
